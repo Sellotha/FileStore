@@ -18,9 +18,9 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7755606313:AAGayGjJ1y1acZwLATLmpTLUD7-lidZ9njE")
-APP_ID = int(os.environ.get("APP_ID", "26534532")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "d7aa913f93f7068094cd1cb51a50fc5a") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
+APP_ID = int(os.environ.get("APP_ID")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002172427490")) #Your db channel Id
@@ -33,20 +33,19 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://chamelisarkar235:1hI4NRjI
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster8090")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/emitingstars_botz")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "http://t.me/Fedbk_rep_bot")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
+START_PIC = os.environ.get("START_PIC", "https://i.postimg.cc/W4W2WV5h/IMG-20250723-085849.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.postimg.cc/VNGvLf2D/Moon-Knight.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @emitingstars_botz\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.meemitingstars_botz>sᴜʙᴀʀᴜ</a></blockquote></b>"
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/emitingstars_botz>Yato</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/emitingstars_botz>ᴏᴛᴀᴋᴜғʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/emitingstars_botz>ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ</a>\n◈ sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/emitingstars_botz>ᴡᴇʙsᴇʀɪᴇs ғʟɪx</a>\n◈ ᴀᴅᴜʟᴛ ᴍᴀɴʜᴡᴀ : <a href=https://t.me/emitingstars_botz>ᴘᴏʀɴʜᴡᴀs</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/emitingstars_botz>subaru</a></blockquote></b>"
+HELP_TXT = "<b>ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴏᴜʀ ʜᴇʟᴘ ᴀɴᴅ ʀᴇᴘᴏʀᴛ ʙᴏᴛ <a href='https://t.me/Fedbk_rep_bot'>@Fedbk_rep_bot</a></b>\n\n<blockquote>“sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʟɪɴᴋ, sᴛᴀʀᴛ ᴛʜᴇ ʜᴇʟᴘ ʙᴏᴛ, ᴀɴᴅ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴍᴇꜱꜱᴀɢᴇ ᴜꜱ...!”</blockquote>"
+ABOUT_TXT = "<b><blockquote>◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/Name_huh'>𝐍𝐀𝐌𝐄_𝐇𝐔𝐇!</a>\n◈ ᴄʜᴀᴛ ɢʀᴏᴜᴘ: <a href='https://t.me/movie_talk_Group'>𝐌𝐨𝐯𝐢𝐞 𝐓𝐚𝐥𝐤 ֶָ֢ [𝐆𝐫𝐨𝐮𝐩]</a>\n◈ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/+X5RPKIsoDgtlZGFl'>𝐌𝐎𝐕𝐈𝐄 𝐓𝐀𝐋𝐊 ֶָ֢ 𓃮</a>\n◈ ʙᴀᴄᴋᴜᴘ: <a href='https://t.me/movie_talk_backup'>MOVIE TALK ֶָ֢ [BACKUP]</a>\n◈ ᴍᴏᴅᴇʀᴀᴛᴏʀ: <a href='https://t.me/lucifer_movie_talk'>𝐌𝐎𝐃𝐄𝐑𝐀𝐓𝐎𝐑 ֶָ֢ ⚡</a></blockquote></b>"
 #--------------------------------------------
-#--------------------------------------------
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<blockquote>ʜᴇʏ {first} ✨</blockquote>\n\n<b>ɪ ᴀᴍ ʜᴏꜱᴘᴇʀ x — ʏᴏᴜʀ ᴘᴇʀꜱᴏɴᴀʟ ғɪʟᴇ ᴅᴇʟɪᴠᴇʀʏ ᴀꜱꜱɪꜱᴛᴀɴᴛ ⚡\nꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ɪɴꜱᴛᴀɴᴛʟʏ\nɴᴏ ᴅᴇʟᴀʏ, ᴊᴜꜱᴛ ꜱᴘᴇᴇᴅ 🚀</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<blockquote>ʜᴇʟʟᴏ {first} ✨</blockquote>\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟꜱ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ♻️ ᴛʀʏ ᴀɢᴀɪɴ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ 📥 ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
 
 CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
 
@@ -66,11 +65,11 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /admins :</b> ɢᴇᴛ ʟɪsᴛ ᴏꜰ ᴀᴅᴍɪɴs
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b> ʙʏ 𝙿𝚘𝚜𝚝 𝚋𝚢 ~ 𝐌𝐎𝐕𝐈𝐄 𝐓𝐀𝐋𝐊 𝖩𝗈𝗂𝗇 Us ~ @movie_talk_backup </b>") #set your Custom Caption here, Keep None for Disable Custom Caption
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>⚜️ 𝙿𝚘𝚜𝚝 𝚋𝚢 ~ 𝐌𝐎𝐕𝐈𝐄 𝐓𝐀𝐋𝐊</b>\n<b>⚡𝖩𝗈𝗂𝗇 Us ~ ❤️</b>\n<b>➦『 @movie_talk_backup 』</b>")  #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
-DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
+DISABLE_CHANNEL_BUTTON = False  # Button show hoga (disable nahi hoga)
 #--------------------------------------------
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
