@@ -88,7 +88,7 @@ logging.basicConfig(
             maxBytes=50000000,
             backupCount=10
         ),
-        logging.StreamHandler()
+        logging.StreamHandler(subtle-lexie-kirtiman-ada51dc9.koyeb.app/)
     ]
 )
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
